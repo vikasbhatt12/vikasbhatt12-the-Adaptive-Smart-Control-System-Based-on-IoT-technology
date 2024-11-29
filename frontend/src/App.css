@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  width: 80%;
+  max-width: 500px;
+}
+
+.status p {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.controls {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.control-mode label {
+  margin-right: 20px;
+  font-size: 1em;
+}
+
+.brightness-control {
+  margin-top: 20px;
+}
+
+.brightness-control label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.brightness-control input[type="range"] {
+  width: 100%;
+}
+
+.error {
+  color: #ff4d4d;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
